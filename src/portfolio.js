@@ -29,7 +29,7 @@ class Portfolio extends Component {
     var src;
     var photos_src_as_of_now = [];
     images.forEach((item, i) => {
-      var name_with_ext = item.split("/")[3];
+      var name_with_ext = item.split("/")[4];
       var splitted_name = name_with_ext.split(".");
       src = photo_src + splitted_name[0] + "." + splitted_name[splitted_name.length-1];
       photos_src_as_of_now.push(src);

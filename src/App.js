@@ -9,7 +9,9 @@ function App() {
     <div className="container">
       <NavbarDefault />
       <div className="row">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="col-sm-3"></div>
+        <span className="beta">This is a beta!</span>
+        <div className="col-sm-3"></div>
       </div>
     </div>
   );
