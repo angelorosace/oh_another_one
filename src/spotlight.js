@@ -20,10 +20,10 @@ class Spotlight extends Component {
   componentDidMount() {
       try{
         src = this.props.location.propsSpotlight.src
-        localStorage.setItem('src', src);
+        sessionStorage.setItem('src', src);
         this.setState({src: src});
       } catch(e) {
-        this.setState({src: localStorage.getItem('src')});
+        this.setState({src: sessionStorage.getItem('src')});
       }
   }
 
@@ -68,13 +68,13 @@ class Spotlight extends Component {
                 <div className="col-lg-3"></div>
                 <div className="col-lg-6 text-center">
                   <span className="helper" />
-                  <img className="spotlight_photo rounded" src={require(""+this.get_image(localStorage.getItem('src')))} alt="spotlight_photo"/>
+                  <img className="spotlight_photo rounded" src={require(""+this.get_image(sessionStorage.getItem('src')))} alt="spotlight_photo"/>
                 </div>
                 <div className="col-lg-3">
                   <div className="card photo_description">
                     <div className="card-body">
-                      <h5 className="card-title">{this.get_photo_title(localStorage.getItem('src'))}</h5>
-                      <p className="card-text">{this.get_photo_description(localStorage.getItem('src'))}</p>
+                      <h5 className="card-title">{this.get_photo_title(sessionStorage.getItem('src'))}</h5>
+                      <p className="card-text">{this.get_photo_description(sessionStorage.getItem('src'))}</p>
                     </div>
                   </div>
                 </div>
