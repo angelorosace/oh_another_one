@@ -12,7 +12,7 @@ export default class Routes extends Component {
                 <Switch>
                     <Route path="/" exact component={App} />
                     <Route path="/portfolio" component={Portfolio} />
-                    <Route path="/spotlight" component={Spotlight}/>
+                    <Route path="/spotlight/:photo" component={Spotlight}/>
                 </Switch>
             </Router>
         )

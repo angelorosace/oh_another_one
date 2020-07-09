@@ -4,7 +4,9 @@ import './spotlight.css';
 import NavbarDefault from './components/navbar/navbar_default';
 
 var data = require('./public/descriptions.json');
-var src = "";
+
+const pre_src_squared= "./public/photos/"
+const pre_src_non_squared= "./public/spot/"
 
 class Spotlight extends Component {
   constructor(props) {
@@ -17,27 +19,16 @@ class Spotlight extends Component {
     this.get_photo_description = this.get_photo_description.bind(this);
   }
 
-  componentDidMount() {
-      try{
-        src = this.props.location.propsSpotlight.src
-        sessionStorage.setItem('src', src);
-        this.setState({src: src});
-      } catch(e) {
-        this.setState({src: sessionStorage.getItem('src')});
-      }
-  }
-
   get_image(src){
-    if(src.includes("non_squared")){
-      var src_splitted = src.split("/");
-      var src_pre = src_splitted.slice(0,2).join("/")
-      var src_post= src_splitted[3].split(".");
+    var splitted_src = src.split("/")
+    if(splitted_src[2].includes("non_squared")){
+      var src_post= splitted_src[2].split(".");
       var src_post_name = src_post[0];
       src_post_name = src_post_name.split("_").slice(0,-2).join("_")
       var src_post_ext = src_post[1];
-      return(src_pre+"/spot/"+src_post_name+"_squared."+src_post_ext);
+      return(pre_src_non_squared+src_post_name+"_squared."+src_post_ext)
     } else {
-        return(src);
+        return(pre_src_squared+splitted_src[2])
     }
   }
 
@@ -68,13 +59,13 @@ class Spotlight extends Component {
                 <div className="col-lg-3"></div>
                 <div className="col-lg-6 text-center">
                   <span className="helper" />
-                  <img className="spotlight_photo rounded" src={require(""+this.get_image(sessionStorage.getItem('src')))} alt="spotlight_photo"/>
+                  <img className="spotlight_photo rounded" src={require(""+this.get_image(this.props.match.url))} alt="spotlight_photo"/>
                 </div>
                 <div className="col-lg-3">
                   <div className="card photo_description">
                     <div className="card-body">
-                      <h5 className="card-title">{this.get_photo_title(sessionStorage.getItem('src'))}</h5>
-                      <p className="card-text">{this.get_photo_description(sessionStorage.getItem('src'))}</p>
+                      <h5 className="card-title">{this.get_photo_title(this.props.match.url)}</h5>
+                      <p className="card-text">{this.get_photo_description(this.props.match.url)}</p>
                     </div>
                   </div>
                 </div>

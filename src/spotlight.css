@@ -9,6 +9,7 @@
   display: block;
   max-height: 300px;
   overflow-y: auto;
+  margin-bottom: 100px; 
 }
 
 #content {

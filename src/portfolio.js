@@ -21,6 +21,7 @@ class Portfolio extends Component {
     this.getPhotos = this.getPhotos.bind(this);
     this.updatePhotoArray = this.updatePhotoArray.bind(this);
     this.shuffle = this.shuffle.bind(this);
+    this.cleanSrc = this.cleanSrc.bind(this);
 
     this.updatePhotoArray(this.getPhotos(require.context('./public/photos', false, /\.(png|jpe?g|svg)$/)));
   }
@@ -46,6 +47,11 @@ class Portfolio extends Component {
     return r.keys().map(r);
   }
 
+  cleanSrc(str) {
+    var arr = str.split("/")
+    return(arr[3]);
+  }
+
   render() {
     return(
       <div className="container">
@@ -54,7 +60,7 @@ class Portfolio extends Component {
           <div id="photos" className="col-sm-12 gallery">
           {
             this.state.photoArray.map((item,i) => {
-              return(<Link to={{pathname:"/spotlight",
+              return(<Link to={{pathname:'/spotlight/'+this.cleanSrc(item),
                                 propsSpotlight:{
                                   src:item
                                 }

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/oh_another_one/static/css/main.e86eb018.chunk.css",
-    "main.js": "/oh_another_one/static/js/main.c3ea1fa7.chunk.js",
-    "main.js.map": "/oh_another_one/static/js/main.c3ea1fa7.chunk.js.map",
+    "main.css": "/oh_another_one/static/css/main.84c01b6e.chunk.css",
+    "main.js": "/oh_another_one/static/js/main.1ccff0d3.chunk.js",
+    "main.js.map": "/oh_another_one/static/js/main.1ccff0d3.chunk.js.map",
     "runtime-main.js": "/oh_another_one/static/js/runtime-main.db535e53.js",
     "runtime-main.js.map": "/oh_another_one/static/js/runtime-main.db535e53.js.map",
-    "static/js/2.f68b47d3.chunk.js": "/oh_another_one/static/js/2.f68b47d3.chunk.js",
-    "static/js/2.f68b47d3.chunk.js.map": "/oh_another_one/static/js/2.f68b47d3.chunk.js.map",
+    "static/js/2.3f39c307.chunk.js": "/oh_another_one/static/js/2.3f39c307.chunk.js",
+    "static/js/2.3f39c307.chunk.js.map": "/oh_another_one/static/js/2.3f39c307.chunk.js.map",
     "index.html": "/oh_another_one/index.html",
-    "precache-manifest.b0c7609308528f80cfc92b40238257c0.js": "/oh_another_one/precache-manifest.b0c7609308528f80cfc92b40238257c0.js",
+    "precache-manifest.74435d8e84defd2530ffe567ae04795c.js": "/oh_another_one/precache-manifest.74435d8e84defd2530ffe567ae04795c.js",
     "service-worker.js": "/oh_another_one/service-worker.js",
-    "static/css/main.e86eb018.chunk.css.map": "/oh_another_one/static/css/main.e86eb018.chunk.css.map",
-    "static/js/2.f68b47d3.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.f68b47d3.chunk.js.LICENSE.txt",
+    "static/css/main.84c01b6e.chunk.css.map": "/oh_another_one/static/css/main.84c01b6e.chunk.css.map",
+    "static/js/2.3f39c307.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.3f39c307.chunk.js.LICENSE.txt",
     "static/media/7_giorni_senza_margine.jpg": "/oh_another_one/static/media/7_giorni_senza_margine.bc9401c0.jpg",
     "static/media/Capricorno.jpg": "/oh_another_one/static/media/Capricorno.d639172c.jpg",
     "static/media/Ellipse 3.svg": "/oh_another_one/static/media/Ellipse 3.ca5d3f43.svg",
@@ -28,12 +28,13 @@
     "static/media/logo_white.svg": "/oh_another_one/static/media/logo_white.e356ac96.svg",
     "static/media/mediterraneo.png": "/oh_another_one/static/media/mediterraneo.5b245654.png",
     "static/media/night_single_image.svg": "/oh_another_one/static/media/night_single_image.46c380f1.svg",
-    "static/media/non_limitarti_a_galleggiare.jpg": "/oh_another_one/static/media/non_limitarti_a_galleggiare.ea5cd21c.jpg"
+    "static/media/non_limitarti_a_galleggiare.jpg": "/oh_another_one/static/media/non_limitarti_a_galleggiare.ea5cd21c.jpg",
+    "static/media/observer.txt": "/oh_another_one/static/media/observer.12bd1b20.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db535e53.js",
-    "static/js/2.f68b47d3.chunk.js",
-    "static/css/main.e86eb018.chunk.css",
-    "static/js/main.c3ea1fa7.chunk.js"
+    "static/js/2.3f39c307.chunk.js",
+    "static/css/main.84c01b6e.chunk.css",
+    "static/js/main.1ccff0d3.chunk.js"
   ]
 }
