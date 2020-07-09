@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/oh_another_one/static/css/main.de414c54.chunk.css",
+    "main.css": "/oh_another_one/static/css/main.84c01b6e.chunk.css",
     "main.js": "/oh_another_one/static/js/main.1ccff0d3.chunk.js",
     "main.js.map": "/oh_another_one/static/js/main.1ccff0d3.chunk.js.map",
     "runtime-main.js": "/oh_another_one/static/js/runtime-main.db535e53.js",
@@ -8,9 +8,9 @@
     "static/js/2.3f39c307.chunk.js": "/oh_another_one/static/js/2.3f39c307.chunk.js",
     "static/js/2.3f39c307.chunk.js.map": "/oh_another_one/static/js/2.3f39c307.chunk.js.map",
     "index.html": "/oh_another_one/index.html",
-    "precache-manifest.d5ab8a177bdf1454cec3ddd5a02c8d1b.js": "/oh_another_one/precache-manifest.d5ab8a177bdf1454cec3ddd5a02c8d1b.js",
+    "precache-manifest.74435d8e84defd2530ffe567ae04795c.js": "/oh_another_one/precache-manifest.74435d8e84defd2530ffe567ae04795c.js",
     "service-worker.js": "/oh_another_one/service-worker.js",
-    "static/css/main.de414c54.chunk.css.map": "/oh_another_one/static/css/main.de414c54.chunk.css.map",
+    "static/css/main.84c01b6e.chunk.css.map": "/oh_another_one/static/css/main.84c01b6e.chunk.css.map",
     "static/js/2.3f39c307.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.3f39c307.chunk.js.LICENSE.txt",
     "static/media/7_giorni_senza_margine.jpg": "/oh_another_one/static/media/7_giorni_senza_margine.bc9401c0.jpg",
     "static/media/Capricorno.jpg": "/oh_another_one/static/media/Capricorno.d639172c.jpg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.db535e53.js",
     "static/js/2.3f39c307.chunk.js",
-    "static/css/main.de414c54.chunk.css",
+    "static/css/main.84c01b6e.chunk.css",
     "static/js/main.1ccff0d3.chunk.js"
   ]
 }
