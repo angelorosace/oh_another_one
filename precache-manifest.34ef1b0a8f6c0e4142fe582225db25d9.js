@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32539cb2f14585fbdb4b5ed4e2db2ac7",
+    "revision": "c7d9d1d4ce1d16535e9f757516182220",
     "url": "/oh_another_one/index.html"
   },
   {
-    "revision": "35177b828929a8c52ff1",
-    "url": "/oh_another_one/static/css/main.84c01b6e.chunk.css"
+    "revision": "944eecfafe16de2b4bec",
+    "url": "/oh_another_one/static/css/main.0ee9621b.chunk.css"
   },
   {
-    "revision": "f938822923575897b56c",
-    "url": "/oh_another_one/static/js/2.3f39c307.chunk.js"
+    "revision": "0de58593ac4a5f84f602",
+    "url": "/oh_another_one/static/js/2.b56e2c43.chunk.js"
   },
   {
     "revision": "be14b386ccc34a49dee76740150eacbc",
-    "url": "/oh_another_one/static/js/2.3f39c307.chunk.js.LICENSE.txt"
+    "url": "/oh_another_one/static/js/2.b56e2c43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35177b828929a8c52ff1",
-    "url": "/oh_another_one/static/js/main.1ccff0d3.chunk.js"
+    "revision": "944eecfafe16de2b4bec",
+    "url": "/oh_another_one/static/js/main.0b9ba784.chunk.js"
   },
   {
     "revision": "3985a487594dd9c924c9",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oh_another_one/static/media/Nel_nome_della_rosa_squared.415140d1.png"
   },
   {
+    "revision": "05106d777172468b1bdd46d1ad71e7e5",
+    "url": "/oh_another_one/static/media/gmail.05106d77.png"
+  },
+  {
     "revision": "41086a68184892dbf358a9a112dd00a6",
     "url": "/oh_another_one/static/media/guida_galattica_per_autostoppisti.41086a68.png"
   },
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f6af1e9f35fc85d4c725fc540e09c2ac",
     "url": "/oh_another_one/static/media/il_maestro_e_margherita.f6af1e9f.jpg"
+  },
+  {
+    "revision": "fae7da990fbe5b2a23ffc75cfcb400e6",
+    "url": "/oh_another_one/static/media/instagram.fae7da99.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -90,9 +98,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea5cd21c293fae3cd9ca0ec449d8a50a",
     "url": "/oh_another_one/static/media/non_limitarti_a_galleggiare.ea5cd21c.jpg"
-  },
-  {
-    "revision": "12bd1b20361fe15330d7cde64fdc4a4f",
-    "url": "/oh_another_one/static/media/observer.12bd1b20.txt"
   }
 ]);
