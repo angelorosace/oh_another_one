@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './spotlight.css';
 
 import NavbarDefault from './components/navbar/navbar_default';
+import { Redirect } from 'react-router-dom';
 
 var data = require('./public/descriptions.json');
 
@@ -27,8 +28,10 @@ class Spotlight extends Component {
       src_post_name = src_post_name.split("_").slice(0,-2).join("_")
       var src_post_ext = src_post[1];
       return(pre_src_non_squared+src_post_name+"_squared."+src_post_ext)
+    } else if (splitted_src[2] == "portfolio"){
+        return("redirect")
     } else {
-        return(pre_src_squared+splitted_src[2])
+      return(pre_src_squared+splitted_src[2])
     }
   }
 
@@ -45,6 +48,9 @@ class Spotlight extends Component {
   }
 
   render(){
+    if (this.get_image(this.props.match.url) == "redirect") {
+        return(<Redirect to={{ pathname: "/portfolio"}}/>)
+    }
     return (
       <div className="container-fluid">
       <div className="container">
@@ -62,7 +68,7 @@ class Spotlight extends Component {
                   <img className="spotlight_photo rounded" src={require(""+this.get_image(this.props.match.url))} alt="spotlight_photo"/>
                 </div>
                 <div className="col-lg-3">
-                  <div className="card photo_description">
+                  <div className="card borders border-bottom-0 border-left-0 photo_description">
                     <div className="card-body">
                       <h5 className="card-title">{this.get_photo_title(this.props.match.url)}</h5>
                       <p className="card-text">{this.get_photo_description(this.props.match.url)}</p>

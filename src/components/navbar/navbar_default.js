@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './navbar_default.css';
 import {Link} from 'react-router-dom';
 
-import logo from '../../public/logo/logo_white.svg';
+import logo from '../../public/logo/logo_black.svg';
 
 class NavbarDefault extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class NavbarDefault extends Component {
               <Link to={"/"} id='link-txt' className="nav-link right">About</Link>
             </li>
             <li className="nav-item">
-              <Link to={"/"} id='link-txt' className="nav-link right">Contact</Link>
+              <Link to={"contact"} id='link-txt' className="nav-link right">Contact</Link>
             </li>
           </ul>
         </div>

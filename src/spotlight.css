@@ -4,12 +4,17 @@
   display: block;
 }
 
+.borders {
+  border-width:2px !important;
+  border-color: black;
+}
+
 .photo_description {
   margin-top: 100px;
   display: block;
   max-height: 300px;
   overflow-y: auto;
-  margin-bottom: 100px; 
+  margin-bottom: 100px;
 }
 
 #content {
