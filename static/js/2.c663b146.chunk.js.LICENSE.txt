@@ -4,6 +4,13 @@ object-assign
 @license MIT
 */
 
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <http://feross.org>
+ * @license  MIT
+ */
+
 /*! ../collections */
 
 /*! ./../webpack/buildin/module.js */
@@ -42,9 +49,13 @@ object-assign
 
 /*! color-name */
 
+/*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
+
 /*! no static exports found */
 
 /*! react-is */
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /*!***********************************!*\
         !*** (webpack)/buildin/module.js ***!

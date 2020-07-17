@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7d9d1d4ce1d16535e9f757516182220",
+    "revision": "cbab925525bd5d203795bca4b3098cc9",
     "url": "/oh_another_one/index.html"
   },
   {
-    "revision": "944eecfafe16de2b4bec",
-    "url": "/oh_another_one/static/css/main.0ee9621b.chunk.css"
+    "revision": "041bd37ac3d6137d888d",
+    "url": "/oh_another_one/static/css/main.6ae2fc6e.chunk.css"
   },
   {
-    "revision": "0de58593ac4a5f84f602",
-    "url": "/oh_another_one/static/js/2.b56e2c43.chunk.js"
+    "revision": "45d06b2b730a04073468",
+    "url": "/oh_another_one/static/js/2.c663b146.chunk.js"
   },
   {
-    "revision": "be14b386ccc34a49dee76740150eacbc",
-    "url": "/oh_another_one/static/js/2.b56e2c43.chunk.js.LICENSE.txt"
+    "revision": "6b635f65c4b01a64911b7b4bb42d5d7b",
+    "url": "/oh_another_one/static/js/2.c663b146.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "944eecfafe16de2b4bec",
-    "url": "/oh_another_one/static/js/main.0b9ba784.chunk.js"
+    "revision": "041bd37ac3d6137d888d",
+    "url": "/oh_another_one/static/js/main.54364528.chunk.js"
   },
   {
     "revision": "3985a487594dd9c924c9",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "415140d1a1ace675938545722d9771c4",
     "url": "/oh_another_one/static/media/Nel_nome_della_rosa_squared.415140d1.png"
+  },
+  {
+    "revision": "bd739eb73db4ebe9d6a6e66302d6e5e9",
+    "url": "/oh_another_one/static/media/angelo.bd739eb7.png"
   },
   {
     "revision": "05106d777172468b1bdd46d1ad71e7e5",
