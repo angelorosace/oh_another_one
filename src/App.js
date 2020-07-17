@@ -10,7 +10,7 @@ function App() {
       <NavbarDefault />
       <div className="row">
         <div className="col-sm-3"></div>
-        <span className="beta">This is a beta!</span>
+        <span className="beta">This is a beta! the project, check my art, discover more about me</span>
         <div className="col-sm-3"></div>
       </div>
     </div>

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/oh_another_one/static/css/main.84c01b6e.chunk.css",
-    "main.js": "/oh_another_one/static/js/main.1ccff0d3.chunk.js",
-    "main.js.map": "/oh_another_one/static/js/main.1ccff0d3.chunk.js.map",
+    "main.css": "/oh_another_one/static/css/main.0ee9621b.chunk.css",
+    "main.js": "/oh_another_one/static/js/main.0b9ba784.chunk.js",
+    "main.js.map": "/oh_another_one/static/js/main.0b9ba784.chunk.js.map",
     "runtime-main.js": "/oh_another_one/static/js/runtime-main.db535e53.js",
     "runtime-main.js.map": "/oh_another_one/static/js/runtime-main.db535e53.js.map",
-    "static/js/2.3f39c307.chunk.js": "/oh_another_one/static/js/2.3f39c307.chunk.js",
-    "static/js/2.3f39c307.chunk.js.map": "/oh_another_one/static/js/2.3f39c307.chunk.js.map",
+    "static/js/2.b56e2c43.chunk.js": "/oh_another_one/static/js/2.b56e2c43.chunk.js",
+    "static/js/2.b56e2c43.chunk.js.map": "/oh_another_one/static/js/2.b56e2c43.chunk.js.map",
     "index.html": "/oh_another_one/index.html",
-    "precache-manifest.74435d8e84defd2530ffe567ae04795c.js": "/oh_another_one/precache-manifest.74435d8e84defd2530ffe567ae04795c.js",
+    "precache-manifest.34ef1b0a8f6c0e4142fe582225db25d9.js": "/oh_another_one/precache-manifest.34ef1b0a8f6c0e4142fe582225db25d9.js",
     "service-worker.js": "/oh_another_one/service-worker.js",
-    "static/css/main.84c01b6e.chunk.css.map": "/oh_another_one/static/css/main.84c01b6e.chunk.css.map",
-    "static/js/2.3f39c307.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.3f39c307.chunk.js.LICENSE.txt",
+    "static/css/main.0ee9621b.chunk.css.map": "/oh_another_one/static/css/main.0ee9621b.chunk.css.map",
+    "static/js/2.b56e2c43.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.b56e2c43.chunk.js.LICENSE.txt",
     "static/media/7_giorni_senza_margine.jpg": "/oh_another_one/static/media/7_giorni_senza_margine.bc9401c0.jpg",
     "static/media/Capricorno.jpg": "/oh_another_one/static/media/Capricorno.d639172c.jpg",
     "static/media/Ellipse 3.svg": "/oh_another_one/static/media/Ellipse 3.ca5d3f43.svg",
@@ -19,22 +19,23 @@
     "static/media/Line 1.svg": "/oh_another_one/static/media/Line 1.2d4d6f83.svg",
     "static/media/Nel_nome_della_rosa_non_squared.png": "/oh_another_one/static/media/Nel_nome_della_rosa_non_squared.7b4ff7ef.png",
     "static/media/Nel_nome_della_rosa_squared.png": "/oh_another_one/static/media/Nel_nome_della_rosa_squared.415140d1.png",
+    "static/media/gmail.png": "/oh_another_one/static/media/gmail.05106d77.png",
     "static/media/guida_galattica_per_autostoppisti.png": "/oh_another_one/static/media/guida_galattica_per_autostoppisti.41086a68.png",
     "static/media/il_barone_rampante.jpg": "/oh_another_one/static/media/il_barone_rampante.0ef0394d.jpg",
     "static/media/il_cavaliere_inesistente.jpg": "/oh_another_one/static/media/il_cavaliere_inesistente.fc7dd114.jpg",
     "static/media/il_maestro_e_margherita.jpg": "/oh_another_one/static/media/il_maestro_e_margherita.f6af1e9f.jpg",
+    "static/media/instagram.png": "/oh_another_one/static/media/instagram.fae7da99.png",
     "static/media/logo.svg": "/oh_another_one/static/media/logo.5d5d9eef.svg",
     "static/media/logo_black.svg": "/oh_another_one/static/media/logo_black.2b29dcaf.svg",
     "static/media/logo_white.svg": "/oh_another_one/static/media/logo_white.e356ac96.svg",
     "static/media/mediterraneo.png": "/oh_another_one/static/media/mediterraneo.5b245654.png",
     "static/media/night_single_image.svg": "/oh_another_one/static/media/night_single_image.46c380f1.svg",
-    "static/media/non_limitarti_a_galleggiare.jpg": "/oh_another_one/static/media/non_limitarti_a_galleggiare.ea5cd21c.jpg",
-    "static/media/observer.txt": "/oh_another_one/static/media/observer.12bd1b20.txt"
+    "static/media/non_limitarti_a_galleggiare.jpg": "/oh_another_one/static/media/non_limitarti_a_galleggiare.ea5cd21c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.db535e53.js",
-    "static/js/2.3f39c307.chunk.js",
-    "static/css/main.84c01b6e.chunk.css",
-    "static/js/main.1ccff0d3.chunk.js"
+    "static/js/2.b56e2c43.chunk.js",
+    "static/css/main.0ee9621b.chunk.css",
+    "static/js/main.0b9ba784.chunk.js"
   ]
 }

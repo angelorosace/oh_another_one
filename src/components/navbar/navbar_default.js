@@ -27,7 +27,7 @@ class NavbarDefault extends Component {
           </ul>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to={"/"} id='link-txt' className="nav-link right">About</Link>
+              <Link to={"about"} id='link-txt' className="nav-link right">About</Link>
             </li>
             <li className="nav-item">
               <Link to={"contact"} id='link-txt' className="nav-link right">Contact</Link>

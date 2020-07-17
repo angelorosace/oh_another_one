@@ -28,8 +28,8 @@ class Spotlight extends Component {
       src_post_name = src_post_name.split("_").slice(0,-2).join("_")
       var src_post_ext = src_post[1];
       return(pre_src_non_squared+src_post_name+"_squared."+src_post_ext)
-    } else if (splitted_src[2] == "portfolio"){
-        return("redirect")
+    } else if (splitted_src[2] == "portfolio" || splitted_src[2] == "about" || splitted_src[2] == "contact"){
+        return(["redirect", splitted_src[2]])
     } else {
       return(pre_src_squared+splitted_src[2])
     }
@@ -48,8 +48,10 @@ class Spotlight extends Component {
   }
 
   render(){
-    if (this.get_image(this.props.match.url) == "redirect") {
-        return(<Redirect to={{ pathname: "/portfolio"}}/>)
+    var tmp = this.get_image(this.props.match.url)
+
+    if (tmp.length == 2 && tmp[0] == "redirect") {
+        return(<Redirect to={{ pathname: "/"+tmp[1]}}/>)
     }
     return (
       <div className="container-fluid">

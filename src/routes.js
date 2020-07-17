@@ -5,6 +5,7 @@ import App from "./App";
 import Portfolio from "./portfolio";
 import Spotlight from "./spotlight";
 import Contact from "./contact";
+import About from "./about";
 
 export default class Routes extends Component {
     render() {
@@ -15,6 +16,7 @@ export default class Routes extends Component {
                     <Route path="/portfolio" component={Portfolio} />
                     <Route path="/spotlight/:photo" component={Spotlight}/>
                     <Route path="/contact" component={Contact}/>
+                    <Route path="/about" component={About}/>
                 </Switch>
             </Router>
         )

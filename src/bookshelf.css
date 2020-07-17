@@ -1,0 +1,12 @@
+.shelf {
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#book-link {
+  color: white;
+  text-decoration: none;
+}
+
+#book-link:hover { color: #999999; }
