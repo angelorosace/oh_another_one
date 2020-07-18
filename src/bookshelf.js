@@ -9,7 +9,6 @@ class Bookshelf extends Component {
   render() {
     return(
           <tr>
-            <td scope="row"><img src={this.props.cover}/></td>
             <td data-label={this.props.bookNameTitle !== undefined ? this.props.bookNameTitle : 'Book Name'}><a id="book-link" href={this.props.url} target="_blank" rel="noopener noreferrer">{this.props.bookNameTitle}</a></td>
           </tr>
     )

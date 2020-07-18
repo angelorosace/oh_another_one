@@ -3,6 +3,7 @@ import React, {Component} from 'react'
 import './about.css'
 import angelo from './public/materials/angelo.png'
 import NavbarDefault from './components/navbar/navbar_default'
+import Iframe from 'react-iframe'
 
 import Goodreads from './goodreads.js';
 
@@ -37,8 +38,10 @@ class About extends Component{
             </div>
             <div className="blank" />
             <div className="row">
-              <div className="col-sm-6 border">Spotify playlists</div>
-              <div className="goodshelf col-sm-6 border">
+              <div className="col-sm-6">
+                <Iframe url="https://open.spotify.com/embed/artist/0QWrMNukfcVOmgEU0FEDyD" className="playlist" height="380" allowtransparency="true" allow="encrypted-media"/>
+              </div>
+              <div className="goodshelf col-sm-6">
                 <Goodreads />
               </div>
             </div>
