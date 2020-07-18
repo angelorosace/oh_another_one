@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/oh_another_one/static/css/main.da0274bf.chunk.css",
-    "main.js": "/oh_another_one/static/js/main.d1d05095.chunk.js",
-    "main.js.map": "/oh_another_one/static/js/main.d1d05095.chunk.js.map",
+    "main.css": "/oh_another_one/static/css/main.e2c8b8a1.chunk.css",
+    "main.js": "/oh_another_one/static/js/main.3cacc67d.chunk.js",
+    "main.js.map": "/oh_another_one/static/js/main.3cacc67d.chunk.js.map",
     "runtime-main.js": "/oh_another_one/static/js/runtime-main.db535e53.js",
     "runtime-main.js.map": "/oh_another_one/static/js/runtime-main.db535e53.js.map",
-    "static/js/2.deed8741.chunk.js": "/oh_another_one/static/js/2.deed8741.chunk.js",
-    "static/js/2.deed8741.chunk.js.map": "/oh_another_one/static/js/2.deed8741.chunk.js.map",
+    "static/js/2.856769d4.chunk.js": "/oh_another_one/static/js/2.856769d4.chunk.js",
+    "static/js/2.856769d4.chunk.js.map": "/oh_another_one/static/js/2.856769d4.chunk.js.map",
     "index.html": "/oh_another_one/index.html",
-    "precache-manifest.fd08005734f18f11e2bbdeceae52f093.js": "/oh_another_one/precache-manifest.fd08005734f18f11e2bbdeceae52f093.js",
+    "precache-manifest.6596779a130a80be8ab20c210e43d019.js": "/oh_another_one/precache-manifest.6596779a130a80be8ab20c210e43d019.js",
     "service-worker.js": "/oh_another_one/service-worker.js",
-    "static/css/main.da0274bf.chunk.css.map": "/oh_another_one/static/css/main.da0274bf.chunk.css.map",
-    "static/js/2.deed8741.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.deed8741.chunk.js.LICENSE.txt",
+    "static/css/main.e2c8b8a1.chunk.css.map": "/oh_another_one/static/css/main.e2c8b8a1.chunk.css.map",
+    "static/js/2.856769d4.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.856769d4.chunk.js.LICENSE.txt",
     "static/media/7_giorni_senza_margine.jpg": "/oh_another_one/static/media/7_giorni_senza_margine.bc9401c0.jpg",
     "static/media/Capricorno.jpg": "/oh_another_one/static/media/Capricorno.d639172c.jpg",
     "static/media/Ellipse 3.svg": "/oh_another_one/static/media/Ellipse 3.ca5d3f43.svg",
@@ -21,6 +21,7 @@
     "static/media/Nel_nome_della_rosa_squared.png": "/oh_another_one/static/media/Nel_nome_della_rosa_squared.415140d1.png",
     "static/media/angelo.png": "/oh_another_one/static/media/angelo.bd739eb7.png",
     "static/media/gmail.png": "/oh_another_one/static/media/gmail.05106d77.png",
+    "static/media/goodreads.png": "/oh_another_one/static/media/goodreads.c5b0427c.png",
     "static/media/guida_galattica_per_autostoppisti.png": "/oh_another_one/static/media/guida_galattica_per_autostoppisti.41086a68.png",
     "static/media/il_barone_rampante.jpg": "/oh_another_one/static/media/il_barone_rampante.0ef0394d.jpg",
     "static/media/il_cavaliere_inesistente.jpg": "/oh_another_one/static/media/il_cavaliere_inesistente.fc7dd114.jpg",
@@ -35,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.db535e53.js",
-    "static/js/2.deed8741.chunk.js",
-    "static/css/main.da0274bf.chunk.css",
-    "static/js/main.d1d05095.chunk.js"
+    "static/js/2.856769d4.chunk.js",
+    "static/css/main.e2c8b8a1.chunk.css",
+    "static/js/main.3cacc67d.chunk.js"
   ]
 }
