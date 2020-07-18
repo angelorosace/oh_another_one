@@ -18,28 +18,24 @@ class About extends Component{
         <NavbarDefault />
         <div className="blank" />
         <div className="row">
-          <div id="personal-info" className="border col-sm-4">
+          <div id="personal-info" className="col-sm-12">
             <div className="row d-flex justify-content-center">
               <img src={angelo} alt="angelo" width="150px" height="150px" />
             </div>
-            <div className="row info">
-              <div>
-                <p>Angelo Rosace</p>
-                <p>31 . 12 . 1996</p>
-                <p>Italian based in Barcelona</p>
-                <p>Freelance Illustrator</p>
-                <p>Master student in Bioinformatics for Health Science</p>
+        </div>
+        </div>
+        <div className="row">
+          <div id="project" className="col-sm-12">
+            <div className="row">
+              <div className="hi">
+                <p>Hi, I am Angelo, just <b>another</b> illustrator. I am italian but I currently live in Barcelona.
+                I am a full time Bioinformatics Student and a freelance illustrator.</p>
               </div>
-            </div>
-          </div>
-          <div id="project" className="col-sm-8">
-            <div className="row border">
-              <h1>The project</h1>
             </div>
             <div className="blank" />
             <div className="row">
               <div className="col-sm-6">
-                <Iframe url="https://open.spotify.com/embed/artist/0QWrMNukfcVOmgEU0FEDyD" className="playlist" height="380" allowtransparency="true" allow="encrypted-media"/>
+                <Iframe url="https://open.spotify.com/embed/artist/0QWrMNukfcVOmgEU0FEDyD" className="playlist" height="400px" allowtransparency="true" allow="encrypted-media"/>
               </div>
               <div className="goodshelf col-sm-6">
                 <Goodreads />

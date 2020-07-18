@@ -3,6 +3,7 @@ import axios from 'axios'
 import xml2json from 'xml2js'
 import Bookshelf from './bookshelf.js'
 import './goodreads.css'
+import goodreads from './public/materials/goodreads.png'
 
 class Goodreads extends Component {
   state = {
@@ -35,7 +36,10 @@ class Goodreads extends Component {
 
     return(
       <div>
-        <h4 className="header">My Goodreads Read Shelf</h4>
+        <div>
+        <img src={goodreads} width="80px" height="80px"/>
+        <span className="header">My Goodreads Read Shelf</span>
+        </div>
         <table className="table shelf table-hover table-dark">
           <tbody>
             {layout}

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/oh_another_one/static/css/main.6ae2fc6e.chunk.css",
-    "main.js": "/oh_another_one/static/js/main.54364528.chunk.js",
-    "main.js.map": "/oh_another_one/static/js/main.54364528.chunk.js.map",
+    "main.css": "/oh_another_one/static/css/main.da0274bf.chunk.css",
+    "main.js": "/oh_another_one/static/js/main.d1d05095.chunk.js",
+    "main.js.map": "/oh_another_one/static/js/main.d1d05095.chunk.js.map",
     "runtime-main.js": "/oh_another_one/static/js/runtime-main.db535e53.js",
     "runtime-main.js.map": "/oh_another_one/static/js/runtime-main.db535e53.js.map",
-    "static/js/2.c663b146.chunk.js": "/oh_another_one/static/js/2.c663b146.chunk.js",
-    "static/js/2.c663b146.chunk.js.map": "/oh_another_one/static/js/2.c663b146.chunk.js.map",
+    "static/js/2.deed8741.chunk.js": "/oh_another_one/static/js/2.deed8741.chunk.js",
+    "static/js/2.deed8741.chunk.js.map": "/oh_another_one/static/js/2.deed8741.chunk.js.map",
     "index.html": "/oh_another_one/index.html",
-    "precache-manifest.678104a305f071786039d5454468b0e1.js": "/oh_another_one/precache-manifest.678104a305f071786039d5454468b0e1.js",
+    "precache-manifest.fd08005734f18f11e2bbdeceae52f093.js": "/oh_another_one/precache-manifest.fd08005734f18f11e2bbdeceae52f093.js",
     "service-worker.js": "/oh_another_one/service-worker.js",
-    "static/css/main.6ae2fc6e.chunk.css.map": "/oh_another_one/static/css/main.6ae2fc6e.chunk.css.map",
-    "static/js/2.c663b146.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.c663b146.chunk.js.LICENSE.txt",
+    "static/css/main.da0274bf.chunk.css.map": "/oh_another_one/static/css/main.da0274bf.chunk.css.map",
+    "static/js/2.deed8741.chunk.js.LICENSE.txt": "/oh_another_one/static/js/2.deed8741.chunk.js.LICENSE.txt",
     "static/media/7_giorni_senza_margine.jpg": "/oh_another_one/static/media/7_giorni_senza_margine.bc9401c0.jpg",
     "static/media/Capricorno.jpg": "/oh_another_one/static/media/Capricorno.d639172c.jpg",
     "static/media/Ellipse 3.svg": "/oh_another_one/static/media/Ellipse 3.ca5d3f43.svg",
@@ -35,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.db535e53.js",
-    "static/js/2.c663b146.chunk.js",
-    "static/css/main.6ae2fc6e.chunk.css",
-    "static/js/main.54364528.chunk.js"
+    "static/js/2.deed8741.chunk.js",
+    "static/css/main.da0274bf.chunk.css",
+    "static/js/main.d1d05095.chunk.js"
   ]
 }
