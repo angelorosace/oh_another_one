@@ -35,7 +35,7 @@ class Goodreads extends Component {
     })
 
     return(
-      <div>
+      <div className="goodshelf">
         <div>
         <img src={goodreads} width="80px" height="80px"/>
         <span className="header">My Goodreads Read Shelf</span>

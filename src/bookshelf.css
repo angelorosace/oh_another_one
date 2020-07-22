@@ -3,6 +3,8 @@
   background: #333;
   max-height: 300px;
   overflow-y: auto;
+  height: 270px;
+  max-height: 270px;
 }
 
 #book-link {

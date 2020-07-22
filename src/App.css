@@ -31,7 +31,21 @@
   }
 }
 
-.beta {
-  font-size: 100px;
-  color: black;
+.title {
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.title-img {
+  margin-top: 20%;
+}
+
+#first {
+  height: 100%;
+}
+
+html,
+body,
+#root{
+    height: 100%;
 }

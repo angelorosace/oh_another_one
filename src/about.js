@@ -35,9 +35,10 @@ class About extends Component{
             <div className="blank" />
             <div className="row">
               <div className="col-sm-6">
-                <Iframe url="https://open.spotify.com/embed/artist/0QWrMNukfcVOmgEU0FEDyD" className="playlist" height="400px" allowtransparency="true" allow="encrypted-media"/>
+                <Iframe url="https://open.spotify.com/embed/artist/0QWrMNukfcVOmgEU0FEDyD" className="playlist" height="350" allowtransparency="true" allow="encrypted-media"/>
               </div>
-              <div className="goodshelf col-sm-6">
+              <div className="col-sm-6">
+                <div className="d-block d-sm-none blank"></div>
                 <Goodreads />
               </div>
             </div>
