@@ -1,27 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34da871f1bc79e63c23017d9b9aab4cb",
+    "revision": "79c705513297e2c3f0039304f3e969a8",
     "url": "/oh_another_one/index.html"
   },
   {
-    "revision": "c78937f333e44b0f4bb9",
-    "url": "/oh_another_one/static/css/main.e2c8b8a1.chunk.css"
+    "revision": "f62fb6d50d5264450f79",
+    "url": "/oh_another_one/static/css/main.ea9641bb.chunk.css"
   },
   {
-    "revision": "8c1a57b412a70793354d",
-    "url": "/oh_another_one/static/js/2.856769d4.chunk.js"
+    "revision": "bf0a5a1f8974dbc5506d",
+    "url": "/oh_another_one/static/js/2.82368fe1.chunk.js"
   },
   {
     "revision": "6b635f65c4b01a64911b7b4bb42d5d7b",
-    "url": "/oh_another_one/static/js/2.856769d4.chunk.js.LICENSE.txt"
+    "url": "/oh_another_one/static/js/2.82368fe1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c78937f333e44b0f4bb9",
-    "url": "/oh_another_one/static/js/main.3cacc67d.chunk.js"
+    "revision": "f62fb6d50d5264450f79",
+    "url": "/oh_another_one/static/js/main.070dc386.chunk.js"
   },
   {
     "revision": "3985a487594dd9c924c9",
     "url": "/oh_another_one/static/js/runtime-main.db535e53.js"
+  },
+  {
+    "revision": "44946ba9f7cf80ce690caf12822bef19",
+    "url": "/oh_another_one/static/media/1.44946ba9.svg"
+  },
+  {
+    "revision": "242c8f1ea09b383ae0ec78b27eca950d",
+    "url": "/oh_another_one/static/media/2.242c8f1e.svg"
+  },
+  {
+    "revision": "b6c370f79783899e7a640ce357f4daa1",
+    "url": "/oh_another_one/static/media/3.b6c370f7.svg"
+  },
+  {
+    "revision": "eaaedf36dacaa6144e9c6d67c1c43b83",
+    "url": "/oh_another_one/static/media/4.eaaedf36.svg"
+  },
+  {
+    "revision": "a9abc82b0431550222d4cb1215ecd90f",
+    "url": "/oh_another_one/static/media/5.a9abc82b.svg"
+  },
+  {
+    "revision": "3a3eb201f08f0d9346b5eb07dbb54370",
+    "url": "/oh_another_one/static/media/6.3a3eb201.svg"
   },
   {
     "revision": "bc9401c01cd24ccd7043b2aac1e7807b",
@@ -106,5 +130,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea5cd21c293fae3cd9ca0ec449d8a50a",
     "url": "/oh_another_one/static/media/non_limitarti_a_galleggiare.ea5cd21c.jpg"
+  },
+  {
+    "revision": "699a19b50b08febd39d620146d27f7a8",
+    "url": "/oh_another_one/static/media/titolo.699a19b5.svg"
   }
 ]);

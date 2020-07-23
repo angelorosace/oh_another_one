@@ -3,6 +3,8 @@ import logo from './public/logo/logo_black.svg';
 import './App.css';
 
 import {useSpring, animated, config} from 'react-spring';
+import VisibilitySensor from "./components/visibilitySensor";
+import { Spring } from "react-spring/renderprops";
 
 import NavbarDefault from './components/navbar/navbar_default'
 import title from './public/materials/titolo.svg'
@@ -15,6 +17,9 @@ import six from './public/logo/parti_black/6.svg'
 
 function App() {
   const fade = useSpring({
+    config: {
+      duration: 1500
+    },
     from: {
       opacity: 0
     },
@@ -30,7 +35,13 @@ function App() {
         <animated.img src={title} alt="title" width="100%" style={fade}/>
       </div>
       <div className="row">
-        The Idea
+        <VisibilitySensor>
+          {({ isVisible }) => (
+            <Spring delay={300} to={{ opacity: isVisible ? 1 : 0 }}>
+              {({ opacity }) => <div style={{ opacity }} className="idea"><span>The Idea</span></div>}
+            </Spring>
+          )}
+        </VisibilitySensor>
       </div>
       <div className="row">
           <img src={logo} alt="logo" />
