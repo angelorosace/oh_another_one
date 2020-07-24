@@ -1,55 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92a2f9524299a75078e582afa43569b1",
+    "revision": "5287c3fafc0fe5c1828e9b80307b0a2a",
     "url": "/oh_another_one/index.html"
   },
   {
-    "revision": "94a8b62c85879884e199",
-    "url": "/oh_another_one/static/css/main.5894a7f0.chunk.css"
+    "revision": "16737a371304561c11e5",
+    "url": "/oh_another_one/static/css/main.9cbea9e9.chunk.css"
   },
   {
-    "revision": "743a730c8f70aed5ceb0",
-    "url": "/oh_another_one/static/js/2.451116aa.chunk.js"
+    "revision": "e2a3513188370af6b1d6",
+    "url": "/oh_another_one/static/js/2.b97d96eb.chunk.js"
   },
   {
     "revision": "6b635f65c4b01a64911b7b4bb42d5d7b",
-    "url": "/oh_another_one/static/js/2.451116aa.chunk.js.LICENSE.txt"
+    "url": "/oh_another_one/static/js/2.b97d96eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94a8b62c85879884e199",
-    "url": "/oh_another_one/static/js/main.ad635888.chunk.js"
+    "revision": "16737a371304561c11e5",
+    "url": "/oh_another_one/static/js/main.a3fc7bf4.chunk.js"
   },
   {
     "revision": "3985a487594dd9c924c9",
     "url": "/oh_another_one/static/js/runtime-main.db535e53.js"
   },
   {
-    "revision": "44946ba9f7cf80ce690caf12822bef19",
-    "url": "/oh_another_one/static/media/1.44946ba9.svg"
+    "revision": "c58000211cd2da4f43d673982d0c6c7e",
+    "url": "/oh_another_one/static/media/1.c5800021.svg"
   },
   {
-    "revision": "242c8f1ea09b383ae0ec78b27eca950d",
-    "url": "/oh_another_one/static/media/2.242c8f1e.svg"
+    "revision": "296572b6105d8627fe7e6c148fcaecbc",
+    "url": "/oh_another_one/static/media/2.296572b6.svg"
   },
   {
-    "revision": "b6c370f79783899e7a640ce357f4daa1",
-    "url": "/oh_another_one/static/media/3.b6c370f7.svg"
+    "revision": "585fa843da48d37d57209500b35e1a6f",
+    "url": "/oh_another_one/static/media/3.585fa843.svg"
   },
   {
-    "revision": "eaaedf36dacaa6144e9c6d67c1c43b83",
-    "url": "/oh_another_one/static/media/4.eaaedf36.svg"
+    "revision": "78cee48572c21c7dde70d850bb5ad4a5",
+    "url": "/oh_another_one/static/media/4.78cee485.svg"
   },
   {
-    "revision": "a9abc82b0431550222d4cb1215ecd90f",
-    "url": "/oh_another_one/static/media/5.a9abc82b.svg"
+    "revision": "faa9314c3e3bf5607e36abac820b2795",
+    "url": "/oh_another_one/static/media/5.faa9314c.svg"
   },
   {
-    "revision": "3a3eb201f08f0d9346b5eb07dbb54370",
-    "url": "/oh_another_one/static/media/6.3a3eb201.svg"
+    "revision": "ba267b10f75b44a5de57160d5aec0880",
+    "url": "/oh_another_one/static/media/6.ba267b10.svg"
   },
   {
     "revision": "bc9401c01cd24ccd7043b2aac1e7807b",
     "url": "/oh_another_one/static/media/7_giorni_senza_margine.bc9401c0.jpg"
+  },
+  {
+    "revision": "018838cb2f4612f99779db287d765bbd",
+    "url": "/oh_another_one/static/media/BigJohnPRO-Bold.018838cb.otf"
+  },
+  {
+    "revision": "90e40e07fbf00054a602da9974edfc22",
+    "url": "/oh_another_one/static/media/BigJohnPRO-Light.90e40e07.otf"
+  },
+  {
+    "revision": "9b550f15f8938c843c72650d7bad6034",
+    "url": "/oh_another_one/static/media/BigJohnPRO-Regular.9b550f15.otf"
   },
   {
     "revision": "d639172cbc474bfe73344965d15e0201",
