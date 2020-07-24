@@ -1,3 +1,16 @@
+@font-face {
+  font-family: BigJohnBold;
+  src: url("./public/fonts/BigJohnPRO-Bold.otf");
+}
+@font-face {
+  font-family: BigJohnLight;
+  src: url("./public/fonts/BigJohnPRO-Light.otf");
+}
+@font-face {
+  font-family: BigJohnRegular;
+  src: url("./public/fonts/BigJohnPRO-Regular.otf");
+}
+
 .App {
   text-align: center;
 }
@@ -41,17 +54,44 @@
 }
 
 .idea {
+  padding-top: 50px;
   width: 100%;
   font-size: 70px;
   text-align: center;
+  font-family: BigJohnRegular;
 }
 
 #first {
   height: 100%;
 }
 
+#second {
+  background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=fffbed&noise=5c5c5c&density=1&opacity=60);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 html,
 body,
 #root{
     height: 100%;
+}
+
+.blank {
+  height: 150px;
+}
+
+.tmp {
+  position: absolute;
+}
+
+.tmp-cont{
+  transition: transform .5s ease;
+}
+.tmp-cont:hover {
+  transform: scale(1.1);
+}
+
+.a {
+  width: 100%
 }
