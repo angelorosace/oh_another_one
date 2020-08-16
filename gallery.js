@@ -1,3 +1,19 @@
+$(document).keydown(function(event) {
+if (event.ctrlKey==true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'  || event.which == '187'  || event.which == '189') ) {
+        event.preventDefault();
+     }
+    // 107 Num Key  +
+    // 109 Num Key  -
+    // 173 Min Key  hyphen/underscor Hey
+    // 61 Plus key  +/= key
+});
+
+$(window).bind('mousewheel DOMMouseScroll', function (event) {
+       if (event.ctrlKey == true) {
+       event.preventDefault();
+       }
+});
+
 var activeIllustration = "";
 
 var photo_names=["7_giorni.jpg","Capricorno.jpg","guida_galattica_per_autostoppisti.png","il_barone_rampante.jpg","il_cavaliere_inesistente.jpg","il_maestro_e_margherita.jpg","Keep_watching_keep_fading.jpg","mediterraneo.png","Nel_nome_della_rosa_non_squared.png","non_limitarti_a_galleggiare.jpg"];
@@ -15,8 +31,8 @@ var photo_info = {
     "quote":"niente parole, niente gesti, solo uno scambio di sorrisi muti. sediamo in silenzio senza altro scopo se non avvertire che non siamo soli. siamo insieme. sento la voce del fuoco, è una danza, e la voce dell'acqua, è un battito, sento la voce dell'erba, è un fruscio, sento la voce degli alberi, è un richiamo, sento la voce del vento, è un sibilo, sento la voce delle nuvole, è un'onda. come se mormorassero di aver conosciuto anche loro un destino beffardo, che si vogliono lasciare alle spalle. sento un canto simile a quello dell'usignolo. vola da me, tace, poi vola ancora da me.",
     "date":"12/08/2019",
     "author":"Yu Hua",
-    "background-color":"",
-    "mockup":""
+    "background-color":"#434343",
+    "mockup":"7_Giorni_Mockup.png"
   },
   "Capricorno.jpg": {
     "title":"Capricorno",
@@ -89,7 +105,9 @@ var photo_info = {
 
 function resetActiveIllustration() {
   activeIllustration = "";
-  $('.separator').css({"background": "grey"});
+  if (document.getElementsByClassName('active-illustration')) {
+    $('.separator-child').css("background-image","none");
+  };
 }
 
 function showIllustration(raw_name) {
@@ -104,8 +122,10 @@ function showIllustration(raw_name) {
     };
     var mockup = photo_info[name]["mockup"];
     var background_color = photo_info[name]["background-color"];
-    $('.separator').animate({"background-color": photo_info[name]["background-color"]}, 2000);
-    $('#showcase').append('<div class="illustration-container"><img class="active-illustration illustration illustration-slide-in" src="./public/photos/'+name+'" alt="'+name+'" height="350px"></img><img class="active-mockup mockup-slide-in" src="./public/photos/mockups/'+mockup+'" alt="'+mockup+'" width="900px"></img></div>');
+    $('.separator-child').css({"background-image":"url(./public/photos/"+name+")","background-size":"130%","background-repeat":"no-repeat","filter": "blur(4px)","-webkit-filter": "blur(4px)"});
+    $('#showcase').prepend('<div id="active" class="illustration-container" style="visibility:hidden"><img class="active-illustration" src="./public/photos/'+name+'" alt="'+name+'" width="60%"></img></div>');
+    $(".illustration-container").addClass("illustration-slide-in");
+    setTimeout("document.getElementById('active').style.visibility = 'visible'",1000);
   }
 }
 
@@ -114,7 +134,7 @@ for(var i = 0; i < photo_names.length; i++) {
   if (photo_names[i] in photo_info) {
     var raw_name = photo_names[i];
     var name = photo_info[photo_names[i]]["title"];
-    $('#chapters').append('<p class="chapter" id='+name+' data-illustration='+raw_name+' onclick="showIllustration(this)" style="background: white;z-index:9; min-width:300px;">'+''+(i+1)+' - '+name+'</p>');
+    $('#chapters').append('<p class="chapter" id='+name+' data-illustration='+raw_name+' onclick="showIllustration(this)" style="background: white;z-index:9; width:100%;">'+''+(i+1)+' - '+name+'</p>');
   } else {
     var no_name = "dawdada";
     $('#chapters').append('<p class="chapter" id="not_in_photo_info" onclick="showIllustration(no_name)" style="background: white;">not_in_photo_info</p>');

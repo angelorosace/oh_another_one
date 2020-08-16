@@ -140,75 +140,60 @@
 
 @keyframes fadeInOutAnother {
   0% {
-    transform: translateY(-210px);
     opacity:0;
   }
   30% {
-    transform: translateY(-210px);
     opacity:1;
   }
   100% {
-    transform: translateY(-210px);
     opacity:0;
   }
 }
 
 @-moz-keyframes fadeInOutAnother {
   0% {
-    transform: translateY(-210px);
     opacity:0;
   }
   30% {
-    transform: translateY(-210px);
     opacity:1;
   }
   100% {
-    transform: translateY(-210px);
     opacity:0;
   }
 }
 
 @-webkit-keyframes fadeInOutAnother {
   0% {
-    transform: translateY(-210px);
     opacity:0;
   }
   30% {
-    transform: translateY(-210px);
     opacity:1;
   }
   100% {
-    transform: translateY(-210px);
     opacity:0;
   }
 }
 
 @-o-keyframes fadeInOutAnother {
   0% {
-    transform: translateY(-210px);
     opacity:0;
   }
   30% {
-    transform: translateY(-210px);
     opacity:1;
   }
   100% {
-    transform: translateY(-210px);
     opacity:0;
   }
 }
 
 @-ms-keyframes fadeInOutAnother {
   0% {
-    transform: translateY(-210px);
     opacity:0;
   }
   30% {
-    transform: translateY(-210px);
     opacity:1;
   }
   100% {
-    transform: translateY(-210px);
     opacity:0;
   }
 }

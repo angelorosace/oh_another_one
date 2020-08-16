@@ -20,6 +20,7 @@ setTimeout("hideButton()", 7200);
 
 function openGallery() {
   $.scrollify.disable();
+  setTimeout('document.getElementById("chapters").style.visibility = "visible"', 1200);
   document.getElementById('auxiliary-panel-one').style.visibility = "visible";
   document.getElementById('auxiliary-panel-two').style.visibility = "visible";
   document.getElementById('auxiliary-panel-three').style.visibility = "visible";
