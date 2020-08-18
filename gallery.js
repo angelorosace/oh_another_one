@@ -111,17 +111,15 @@ function resetActiveIllustration() {
 }
 
 function showIllustration(raw_name) {
-  //if any illustration div has the class "active" then hide that illustration and show the selected one
   name = raw_name.getAttribute("data-illustration");
   if (name == activeIllustration) {
     console.log("aaaaa");
   } else {
     activeIllustration = name;
     if (document.getElementsByClassName('active-illustration')) {
+      $('.separator-child').css("opacity","0");
       $('#showcase').children("div").remove();
     };
-    var mockup = photo_info[name]["mockup"];
-    var background_color = photo_info[name]["background-color"];
     $('.separator-child').css({"background-image":"url(./public/photos/"+name+")","background-size":"130%","background-repeat":"no-repeat","background-size":"cover","filter": "blur(4px)","-webkit-filter": "blur(4px)", "opacity":"0"});
     $('.separator-child').animate({ opacity: 0.3 }, { duration: 3000 });
     $('#showcase').prepend('<div id="active" class="illustration-container" style="visibility:hidden"><img class="active-illustration" src="./public/photos/'+name+'" alt="'+name+'" height="600px"></img></div>');
@@ -135,7 +133,7 @@ for(var i = 0; i < photo_names.length; i++) {
   if (photo_names[i] in photo_info) {
     var raw_name = photo_names[i];
     var name = photo_info[photo_names[i]]["title"];
-    $('#chapters').append('<p><span class="chapter" id='+name+' data-illustration='+raw_name+' onclick="showIllustration(this)" style="z-index:9; width:100%;">'+''+(i+1)+' - '+name+'</span></p>');
+    $('#chapters').append('<p><span class="chapter" id='+name+' data-illustration='+raw_name+' onclick="showIllustration(this)" style="z-index:9; width:100%;">'+'<b>'+(i+1)+'</b> - '+name+'</span></p>');
   } else {
     var no_name = "dawdada";
     $('#chapters').append('<span class="chapter" id="not_in_photo_info" onclick="showIllustration(no_name)" style="background: white;">not_in_photo_info</span>');

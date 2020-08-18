@@ -9,11 +9,15 @@ html {
   background: white;
   transition: .3s;
   border-radius: 0% 0% 100% 100%;
+  cursor: pointer;
 }
 
 .skip:hover {
   padding-top: 0px;
   background: black;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
 }
 
 .skip:hover > .skip-txt {
@@ -71,7 +75,7 @@ html {
 
 .gallery-title {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 a {
@@ -83,15 +87,15 @@ a {
 .open {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: black;
+  background: white;
+  border: 3px solid black;
   transition: .5s;
-  color: white;
+  color: black;
 }
 
 .open:hover {
-  background: white;
-  border: 3px solid black;
-  color: black;
+  background: black;
+  color: white;
 }
 
 .open-gallery-link {
@@ -129,17 +133,16 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   color:black;
-  background-color: black;
-  color:white;
+  background-color: white;
+  border: 3px solid black;
   cursor: pointer;
   text-align: center;
   transition: .3s;
 }
 
 .back-to-gallery:hover {
-  border: 3px solid black;
-  color:black;
-  background-color: white;
+  color:white;
+  background-color: black;
 }
 
 .illustration-container {
@@ -217,8 +220,9 @@ a {
 .frame {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  background: white;
-  color: black;
+  border: 3px solid white;
+  background: black;
+  color: white;
   padding-top: 20px;
   padding-bottom: 20px;
 }
