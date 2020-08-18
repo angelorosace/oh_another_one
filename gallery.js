@@ -122,9 +122,10 @@ function showIllustration(raw_name) {
     };
     var mockup = photo_info[name]["mockup"];
     var background_color = photo_info[name]["background-color"];
-    $('.separator-child').css({"background-image":"url(./public/photos/"+name+")","background-size":"130%","background-repeat":"no-repeat","filter": "blur(4px)","-webkit-filter": "blur(4px)", "opacity":"0.3"});
-    $('#showcase').prepend('<div id="active" class="illustration-container" style="visibility:hidden"><img class="active-illustration" src="./public/photos/'+name+'" alt="'+name+'" width="60%"></img></div>');
-    $(".illustration-container").addClass("illustration-slide-in");
+    $('.separator-child').css({"background-image":"url(./public/photos/"+name+")","background-size":"130%","background-repeat":"no-repeat","background-size":"cover","filter": "blur(4px)","-webkit-filter": "blur(4px)", "opacity":"0"});
+    $('.separator-child').animate({ opacity: 0.3 }, { duration: 3000 });
+    $('#showcase').prepend('<div id="active" class="illustration-container" style="visibility:hidden"><img class="active-illustration" src="./public/photos/'+name+'" alt="'+name+'" height="600px"></img></div>');
+    $("#active").addClass("illustration-slide-in");
     setTimeout("document.getElementById('active').style.visibility = 'visible'",1000);
   }
 }

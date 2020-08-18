@@ -23,6 +23,11 @@ var hideButton = function () {
 }
 setTimeout("hideButton()", 7200);
 
+var showScroll = function () {
+  document.getElementById("scroll").style.visibility = "visible";
+}
+setTimeout("showScroll()", 7200);
+
 function openGallery() {
   $.scrollify.disable();
   setTimeout('document.getElementById("chapters").style.visibility = "visible"', 1200);
@@ -33,7 +38,7 @@ function openGallery() {
   document.getElementById('photos').style.visibility = "visible";
   $(document).ready(function(){
       $('#gallery-title').animate({left:"-100vw"}, 2000);
-      $('.open-gallery-link').fadeOut("slow");
+      $('.open').fadeOut("fast");
       if(  $("#auxiliary-panel-one").hasClass("slide-close-gallery-one") ) {
         $("#photos").removeClass("slide-close-gallery");
         $("#auxiliary-panel-one").removeClass("slide-close-gallery-one");
@@ -53,8 +58,8 @@ function closeGallery() {
   document.getElementById("chapters").style.visibility = "hidden";
   $('html').css("overflow-y","visible");
   $('#gallery-title').animate({left:"0vw"}, 2000);
-  $('.open-gallery-link').animate({left:"0vw"}, 2000);
-  $('.open-gallery-link').fadeIn("slow");
+  $('.open').animate({left:"0vw"}, 2000);
+  $('.open').fadeIn("slow");
   $('#back-div').hide();
 
   $("#auxiliary-panel-one").removeClass("slide-open-gallery-one");

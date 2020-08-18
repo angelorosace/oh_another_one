@@ -7,6 +7,7 @@ function skip() {
   document.getElementById("anotherOne").style.visibility = "hidden";
   document.getElementById("oh").style.visibility = "hidden";
   document.getElementById("skip").style.visibility = "hidden";
+  document.getElementById("scroll").style.visibility = "visible";
   showParts();
   parts();
 }

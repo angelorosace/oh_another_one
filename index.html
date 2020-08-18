@@ -5,6 +5,7 @@
         <!-- head definitions go here -->
         <title>Oh.another.one</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./fade-animation.css">
         <link rel="stylesheet" type="text/css" href="./slide-animation.css">
         <link rel="stylesheet" type="text/css" href="./float-animation.css">
@@ -31,8 +32,10 @@
       <!-- landing page - title -->
       <section class="layer" style="background:url(./public/o2.svg); height:100%; background-position: center; background-repeat: no-repeat;background-size: cover;">
         <div class="container-fluid">
-          <div id="skip" class="skip-div" style="visibility: visible;">
-            <button onclick="skip()" type="button" class="btn btn-outline-dark">skip</button>
+          <div id="skip" class="skip-div d-flex justify-content-center" style="visibility: visible;">
+            <div class="skip" style="width:4%">
+              <span class="skip-txt" onclick="skip()" style="cursor:pointer;">skip</span>
+            </div>
           </div>
           <div class="row" style="width:100%; position:absolute">
             <div class="col-sm-12 d-flex justify-content-center"><img id="oh" class="fade-in-out" src="./public/logo/SVG/oh.svg" alt="oh" style="width: 20%; margin-top: 12%"></img></div>
@@ -82,6 +85,9 @@
             </div>
             <div class="col-sm-1"></div>
           </div>
+          <div id="scroll" class="srcoll-div d-flex justify-content-center" style="visibility:hidden;">
+            <img class="scroll-img a" src="./public/icons/down.png" style="width:3%; height:3%"></img>
+          </div>
     </section>
 
     <!-- Gallery -->
@@ -90,8 +96,12 @@
         <div id="gallery-locator" class="gallery-section container-fluid">
           <div class="row">
             <div class="col-sm-12">
-              <div id="gallery-title" style="position: relative;"><h1 style="text-align: center; font-size: 200px;">GALLERY</h1></div>
-              <h4 class="open-gallery-link" style="cursor: pointer; text-align:center;" onclick="openGallery(); resetActiveIllustration()">open</h4>
+              <div id="gallery-title" style="position: relative;"><h1 class="gallery-title" style="text-align: center; font-size: 200px;">GALLERY</h1></div>
+              <div class="open-container d-flex justify-content-center" style="width:100%">
+                <div class="open" onclick="openGallery(); resetActiveIllustration()" style="width:10%; cursor: pointer;">
+                  <h4 class="open-gallery-link" style="text-align:center;">open</h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -105,7 +115,7 @@
       <div class="row" style="height:100%;">
         <div class="col-sm-2 d-flex justify-content-center">
           <div id="back-div" class="back">
-            <div class="back-to-gallery" onclick="closeGallery()">back</div>
+            <div class="back-to-gallery" onclick="closeGallery()"><h4 class="open-gallery-link">close</h4></div>
           </div>
         </div>
         <div class="col-sm-3">
@@ -125,9 +135,9 @@
       <div class="container-fluid">
         <div class="row d-flex justify-content-center" style="padding-top:5%;">
           <div class="jumbotron jumbotron-fluid" style="background:none;">
-            <h1 style="width: 100%; font-size: 200px; padding-bottom:40px">CONTACTS</h1>
-            <p><img src="./public/instagram.png" width="64px" alt="insta"></img><a href="https://www.instagram.com/oh_another_one/?hl=en" class="contact">oh.another.one</a></p>
-            <p><img src="./public/gmail.png" width="64px" alt="gmail"></img><a class="contact">oh.another.one00@gmail.com</a></p>
+            <h1 style="width: 100%; font-size: 200px; padding-bottom:40px; font-family: 'Roboto', sans-serif; font-weight: 400;">CONTACT</h1>
+            <p><img src="./public/icons/instagram.png" width="64px" alt="insta"></img><a href="https://www.instagram.com/oh_another_one/?hl=en" target="_blank" class="contact">oh.another.one</a></p>
+            <p><img src="./public/icons/gmail.png" width="64px" alt="gmail"></img><a class="contact">oh.another.one00@gmail.com</a></p>
           </div>
         </div>
       </div>

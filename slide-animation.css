@@ -491,46 +491,46 @@
 
 @keyframes illustration-slide-in {
   0% {
-    transform: translateX(30%) translateY(160%);
+    transform: translateX(25%) translateY(160%);
   }
   100% {
-    transform: translateX(30%) translateY(30%);
+    transform: translateX(25%) translateY(35%);
   }
 }
 
 @-moz-keyframes illustration-slide-in {
   0% {
-    transform: translateX(30%) translateY(160%);
+    transform: translateX(25%) translateY(160%);
   }
   100% {
-    transform: translateX(30%) translateY(30%);
+    transform: translateX(25%) translateY(35%);
   }
 }
 
 @-webkit-keyframes illustration-slide-in {
   0% {
-    transform: translateX(30%) translateY(160%);
+    transform: translateX(25%) translateY(160%);
   }
   100% {
-    transform: translateX(30%) translateY(30%);
+    transform: translateX(25%) translateY(35%);
   }
 }
 
 @-o-keyframes illustration-slide-in {
   0% {
-    transform: translateX(30%) translateY(160%);
+    transform: translateX(25%) translateY(160%);
   }
   100% {
-    transform: translateX(30%) translateY(30%);
+    transform: translateX(25%) translateY(35%);
   }
 }
 
 @-ms-keyframes illustration-slide-in {
   0% {
-    transform: translateX(30%) translateY(160%);
+    transform: translateX(25%) translateY(160%);
   }
   100% {
-    transform: translateX(30%) translateY(30%);
+    transform: translateX(25%) translateY(35%);
   }
 }
 
