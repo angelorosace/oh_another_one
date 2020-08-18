@@ -1,17 +1,22 @@
-var logo = function displayLogo() {
-  document.getElementById("logo").style.visibility = "visible";
+var showParts = function displayParts() {
+  document.getElementsByClassName("floating")[0].style.visibility = "visible";
+  document.getElementsByClassName("floating")[1].style.visibility = "visible";
+  document.getElementsByClassName("floating")[2].style.visibility = "visible";
+  document.getElementsByClassName("floating")[3].style.visibility = "visible";
+  document.getElementsByClassName("floating")[4].style.visibility = "visible";
 }
-setTimeout("logo()", 5600)
+setTimeout("showParts()", 6000);
+
+var parts = function displayParts() {
+  $('.floating').addClass("temp");
+  $('.temp').removeClass("floating");
+  $('.temp').addClass("floating-not-animated");
+}
 
 var another = function displayAnotherOne() {
   document.getElementById("anotherOne").style.visibility = "visible";
 }
-setTimeout("another()", 2750)
-
-var desc = function displayDescription() {
-  document.getElementById("description-locator").style.visibility = "visible";
-}
-setTimeout("desc()", 7200)
+setTimeout("another()", 2900);
 
 var hideButton = function () {
   document.getElementById("skip").style.visibility = "hidden";
@@ -21,6 +26,7 @@ setTimeout("hideButton()", 7200);
 function openGallery() {
   $.scrollify.disable();
   setTimeout('document.getElementById("chapters").style.visibility = "visible"', 1200);
+  $('html').css("overflow-y","hidden");
   document.getElementById('auxiliary-panel-one').style.visibility = "visible";
   document.getElementById('auxiliary-panel-two').style.visibility = "visible";
   document.getElementById('auxiliary-panel-three').style.visibility = "visible";
@@ -44,6 +50,8 @@ function openGallery() {
 
 function closeGallery() {
   $.scrollify.enable();
+  document.getElementById("chapters").style.visibility = "hidden";
+  $('html').css("overflow-y","visible");
   $('#gallery-title').animate({left:"0vw"}, 2000);
   $('.open-gallery-link').animate({left:"0vw"}, 2000);
   $('.open-gallery-link').fadeIn("slow");

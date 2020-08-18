@@ -1,19 +1,14 @@
 function skip() {
   $(document).ready(function(){
-      $("#description-locator").removeClass("fade-in-delayed");
-      $("#logo").removeClass("slide-in-from-right");
-      $("#logo").addClass("logo-not-animated");
       $("#anotherOne").hide();
   });
   clearTimeout(another);
-  clearTimeout(desc);
-  clearTimeout(logo);
   clearTimeout(hideButton);
-  logo()
-  desc()
   document.getElementById("anotherOne").style.visibility = "hidden";
   document.getElementById("oh").style.visibility = "hidden";
   document.getElementById("skip").style.visibility = "hidden";
+  showParts();
+  parts();
 }
 
 function removeScrollY() {

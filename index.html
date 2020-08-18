@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./fade-animation.css">
         <link rel="stylesheet" type="text/css" href="./slide-animation.css">
+        <link rel="stylesheet" type="text/css" href="./float-animation.css">
         <link rel="stylesheet" type="text/css" href="./index.css">
         <link rel="stylesheet" type="text/css" href="./fonts.css">
 
@@ -21,15 +22,14 @@
             $.scrollify({
               section : ".layer",
             });
+            $('.a').fadeIn();
           });
       </script>
     </head>
     <body>
-      <!-- skip-button -->
-
 
       <!-- landing page - title -->
-      <section class="layer">
+      <section class="layer" style="background:url(./public/o2.svg); height:100%; background-position: center; background-repeat: no-repeat;background-size: cover;">
         <div class="container-fluid">
           <div id="skip" class="skip-div" style="visibility: visible;">
             <button onclick="skip()" type="button" class="btn btn-outline-dark">skip</button>
@@ -40,23 +40,48 @@
           <div class="row" style="width:100%; position:absolute">
             <div class="col-sm-12 d-flex justify-content-center"><img id="anotherOne" class="fade-in-out-another" src="./public/logo/SVG/another_one.svg" alt="another_one" style="visibility: hidden; width:80%; margin-top: 12%"></img></div>
           </div>
-          <!-- logo + project description-->
           <div class="row">
-            <div class="col-sm-6">
-              <img id="logo" class="slide-in-from-right" src="./public/logo/logo_black.svg" alt="logo" style="visibility: hidden; width: 100%; height: 80%; padding-top: 10%;">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2" style="padding-top: 13%">
+              <img class="floating a" src="./public/logo/parti_white/a.svg" style="visibility:hidden"></img>
+              <span class="subtitle">
+                <p class="frame">The Name</p>
+                <p>The first letter of my name: Angelo.</p>
+              </span>
             </div>
-            <div class="col-sm-6">
-              <div id="description-locator" class="fade-in-delayed" style="visibility: hidden; padding-top:20%;">
-                <h3>Another One</h3>
-                <p>In constant search of inspiration I stumble across ideas. The ideas are reshaped in form of illustration and presented for everyone to see</p>
-                </p> Another like many; another illustrator comes out to the public.</p>
-                </p> An anonimity that gives freedom but that has its purpose.</p>
-                <p><b>Hover on the logo to learn more</b><p>
-              </div>
+            <div class="col-sm-2" style="padding-top: 13%">
+              <img class="floating one" src="./public/logo/parti_white/1.svg" style="visibility:hidden"></img>
+              <span class="subtitle">
+                <p class="frame">The path</p>
+                <p>One path; an artistic path.</p>
+                <p>One possibility among the multitude.</p>
+              </span>
             </div>
+            <div class="col-sm-2" style="padding-top: 13%">
+              <img class="floating white" src="./public/logo/logo_white.svg" style="visibility:hidden"></img>
+              <span class="subtitle">
+                <p class="frame">The Symbol</p>
+                <p>The logo I chose to represent me.</p>
+                <p>Describes my persona and conveys my message.</p>
+              </span>
+            </div>
+            <div class="col-sm-2" style="padding-top: 13%">
+              <img class="floating dot" src="./public/logo/parti_white/dot.svg" style="visibility:hidden"></img>
+              <span class="subtitle">
+                <p class="frame">The one</p>
+                <p>My self, my ego, presented in form of illustrations.</p>
+              </span>
+            </div>
+            <div class="col-sm-2" style="padding-top: 13%">
+              <img class="floating circle" src="./public/logo/parti_white/cerchio.svg" style="visibility:hidden"></img>
+              <span class="subtitle">
+                <p class="frame">The potential</p>
+                <p>The potential of the path I decided to take.</p>
+                <p>A possibility to exploit it.</p>
+              </span>
+            </div>
+            <div class="col-sm-1"></div>
           </div>
-        </div>
-      </div>
     </section>
 
     <!-- Gallery -->
@@ -66,7 +91,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div id="gallery-title" style="position: relative;"><h1 style="text-align: center; font-size: 200px;">GALLERY</h1></div>
-              <h4 class="open-gallery-link" style="cursor: pointer; text-align:center" onclick="openGallery(); resetActiveIllustration()">open</h4>
+              <h4 class="open-gallery-link" style="cursor: pointer; text-align:center;" onclick="openGallery(); resetActiveIllustration()">open</h4>
             </div>
           </div>
         </div>
@@ -98,9 +123,9 @@
     <!-- Contact -->
     <div id="third-layer" class="layer">
       <div class="container-fluid">
-        <div class="row d-flex justify-content-center" style="padding-top:10%;">
+        <div class="row d-flex justify-content-center" style="padding-top:5%;">
           <div class="jumbotron jumbotron-fluid" style="background:none;">
-            <h1 style="width: 100%; font-size: 200px;">CONTACTS</h1>
+            <h1 style="width: 100%; font-size: 200px; padding-bottom:40px">CONTACTS</h1>
             <p><img src="./public/instagram.png" width="64px" alt="insta"></img><a href="https://www.instagram.com/oh_another_one/?hl=en" class="contact">oh.another.one</a></p>
             <p><img src="./public/gmail.png" width="64px" alt="gmail"></img><a class="contact">oh.another.one00@gmail.com</a></p>
           </div>
