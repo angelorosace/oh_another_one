@@ -692,3 +692,56 @@
     transform: translateX(-12vw) translateY(100vh);
   }
 }
+
+.moveUp {
+  animation: moveUp ease 2s forwards;
+  -webkit-animation: moveUp ease 2s forwards;
+  -moz-animation: moveUp ease 2s forwards;
+  -o-animation: moveUp ease 2s forwards;
+  -ms-animation: moveUp ease 2s forwards;
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+@-moz-keyframes moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+@-webkit-keyframes moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+@-o-keyframes moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+
+@-ms-keyframes moveUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}

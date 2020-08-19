@@ -1,3 +1,11 @@
+.float-icon {
+  animation: floatIcon 6s ease-in-out infinite;
+  -webkit-animation: floatIcon 6s ease-in-out infinite;
+  -moz-animation: floatIcon 6s ease-in-out infinite;
+  -o-animation: floatIcon 6s ease-in-out infinite;
+  -ms-animation: floatIcon 6s ease-in-out infinite;
+}
+
 .a {
   animation: float 6s ease-in-out infinite;
   -webkit-animation: float 6s ease-in-out infinite;
@@ -109,6 +117,66 @@
 	}
 	100% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatIcon {
+  0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@-moz-keyframes floatIcon {
+  0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@-webkit-keyframes floatIcon {
+  0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@-o-keyframes floatIcon {
+  0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@-ms-keyframes floatIcon {
+  0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
 		transform: translatey(0px);
 	}
 }

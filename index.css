@@ -32,7 +32,6 @@ html {
   color: black;
 }
 
-
 .logo-not-animated {
   margin-left: 30%;
   width: 100%;
@@ -47,7 +46,6 @@ html {
 #gallery-locator {
   width: 100%;
   height: 100%;
-  padding-top: 15%;
 }
 
 .skip-div {
@@ -73,9 +71,30 @@ html {
   width: 80vw;
 }
 
-.gallery-title {
+.gallery-col {
+  padding-right: 0px;
+  padding-left:0px;
+}
+
+#first-col {
+  background: #ADD8E6;
+  border-right: 2px solid purple;
+}
+
+#second-col {
+  background: orange;
+  border-left: 2px solid purple;
+}
+
+.book {
+  position:absolute;
+  padding-top: 40%;
+}
+
+.gallery-title, .project-title {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  margin-top:40%;
 }
 
 a {
@@ -84,7 +103,7 @@ a {
   transition-duration: 0.4s;
 }
 
-.open {
+.open, .open-project{
   padding-top: 20px;
   padding-bottom: 20px;
   background: white;
@@ -93,12 +112,12 @@ a {
   color: black;
 }
 
-.open:hover {
+.open:hover, .open-project:hover {
   background: black;
   color: white;
 }
 
-.open-gallery-link {
+.open-gallery-link, .open-project-link {
   margin-bottom: 0px;
   font-family: 'Roboto', sans-serif;
   font-weight: 200;

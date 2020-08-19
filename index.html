@@ -94,11 +94,24 @@
     <section id="second-layer" class="layer">
       <div class="gallery" style="height:100%;">
         <div id="gallery-locator" class="gallery-section container-fluid">
-          <div class="row">
-            <div class="col-sm-12">
-              <div id="gallery-title" style="position: relative;"><h1 class="gallery-title" style="text-align: center; font-size: 200px;">GALLERY</h1></div>
-              <div class="open-container d-flex justify-content-center" style="width:100%">
-                <div class="open" onclick="openGallery(); resetActiveIllustration()" style="width:10%; cursor: pointer;">
+          <div class="row" style="height:100%;">
+            <div id="first-col" class="col-sm-6 gallery-col">
+              <div id="project-title" style="position: relative;"><h1 class="project-title" style="text-align: center; font-size:100px">Project</h1></div>
+              <div class="open-project-container d-flex justify-content-center" style="width:100%">
+                <div class="open-project" onclick="openProject()" style="width:20%;">
+                  <h4 class="open-project-link" style="text-align:center;">open</h4>
+                </div>
+              </div>
+            </div>
+            <div id="second-col" class="col-sm-6 gallery-col" onmouseover="move('gallery')">
+              <div style="width:100%" class="book d-flex justify-content-center">
+                <img class="float-icon" src="./public/icons/book-white.svg" width="20%"></img>
+              </div>
+              <div id="gallery-title" class="gallery-title-div" style="position: relative;  opacity:0;">
+                <h1 class="gallery-title" style="text-align: center; font-size:100px">Gallery</h1>
+              </div>
+              <div class="open-container d-flex justify-content-center" style="width:100%; opacity:0;">
+                <div class="open" onclick="openGallery(); resetActiveIllustration()" style="width:20%; cursor: pointer;">
                   <h4 class="open-gallery-link" style="text-align:center;">open</h4>
                 </div>
               </div>
