@@ -67,8 +67,8 @@ html {
   position: absolute;
   top:100%;
   left:100%;
-  height: 120vh;
-  width: 80vw;
+  height: 100%;
+  width: 100%;
 }
 
 .gallery-col {
@@ -77,15 +77,26 @@ html {
 }
 
 #first-col {
-  background: #ADD8E6;
-  border-right: 2px solid purple;
+  background: #fd8c9c;
+  border-right: 4px solid black;
+  border-bottom: 8px solid black;
+  transition: .3s;
+}
+
+#first-col:hover {
+  background: #ff576f;
 }
 
 #second-col {
-  background: orange;
-  border-left: 2px solid purple;
+  background: #8af6df;
+  border-left: 4px solid black;
+  border-bottom: 8px solid black;
+  transition: .3s;
 }
 
+#second-col:hover {
+  background: #4ee4c4;
+}
 .book {
   position:absolute;
   padding-top: 40%;

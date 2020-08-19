@@ -30,7 +30,7 @@
     <body>
 
       <!-- landing page - title -->
-      <section class="layer" style="background:url(./public/o2.svg); height:100%; background-position: center; background-repeat: no-repeat;background-size: cover;">
+      <section class="layer" style="background:black; height:100%;">
         <div class="container-fluid">
           <div id="skip" class="skip-div d-flex justify-content-center" style="visibility: visible;">
             <div class="skip" onclick="skip()" style="width:4%">
@@ -94,9 +94,9 @@
     <section id="second-layer" class="layer">
       <div class="gallery" style="height:100%;">
         <div id="gallery-locator" class="gallery-section container-fluid">
-          <div class="row" style="height:100%;">
+          <div class="row" style="height:90%;">
             <div id="first-col" class="col-sm-6 gallery-col">
-              <div id="project-title" style="position: relative;"><h1 class="project-title" style="text-align: center; font-size:100px">Project</h1></div>
+              <div id="project-title" style="position: relative;"><h1 class="project-title" style="text-align: center; font-size:100px">PROJECT</h1></div>
               <div class="open-project-container d-flex justify-content-center" style="width:100%">
                 <div class="open-project" onclick="openProject()" style="width:20%;">
                   <h4 class="open-project-link" style="text-align:center;">open</h4>
@@ -105,10 +105,10 @@
             </div>
             <div id="second-col" class="col-sm-6 gallery-col" onmouseover="move('gallery')">
               <div style="width:100%" class="book d-flex justify-content-center">
-                <img class="float-icon" src="./public/icons/book-white.svg" width="20%"></img>
+                <img class="float-icon" src="./public/icons/book.svg" width="20%"></img>
               </div>
               <div id="gallery-title" class="gallery-title-div" style="position: relative;  opacity:0;">
-                <h1 class="gallery-title" style="text-align: center; font-size:100px">Gallery</h1>
+                <h1 class="gallery-title" style="text-align: center; font-size:100px">GALLERY</h1>
               </div>
               <div class="open-container d-flex justify-content-center" style="width:100%; opacity:0;">
                 <div class="open" onclick="openGallery(); resetActiveIllustration()" style="width:20%; cursor: pointer;">
@@ -117,6 +117,13 @@
               </div>
             </div>
           </div>
+          <div class="row" style="height:10%;">
+            <div id="scroll-gallery" class="col-sm-12" style="background:#ffd117;">
+              <div class="d-flex justify-content-center" style="width:100%;margin-top:30px;">
+                <img class="one" src="./public/icons/down.png" style="height:70%"></img>
+              </div>
+            </div>
+          </vid>
         </div>
         <div id="auxiliary-panel-one" class="auxiliary-panel"></div>
         <div id="auxiliary-panel-two" class="auxiliary-panel"></div>

@@ -62,46 +62,46 @@
 
 @keyframes slide-open-gallery-one {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-moz-keyframes slide-open-gallery-one {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-webkit-keyframes slide-open-gallery-one {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-o-keyframes slide-open-gallery-one {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-ms-keyframes slide-open-gallery-one {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
@@ -116,46 +116,46 @@
 
 @keyframes slide-close-gallery-one {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-moz-keyframes slide-close-gallery-one {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-webkit-keyframes slide-close-gallery-one {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-o-keyframes slide-close-gallery-one {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-ms-keyframes slide-close-gallery-one {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
@@ -170,46 +170,46 @@
 
 @keyframes slide-open-gallery-two {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-moz-keyframes slide-open-gallery-two {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-webkit-keyframes slide-open-gallery-two {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-o-keyframes slide-open-gallery-two {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-ms-keyframes slide-open-gallery-two {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
@@ -224,46 +224,46 @@
 
 @keyframes slide-close-gallery-two {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-moz-keyframes slide-close-gallery-two {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-webkit-keyframes slide-close-gallery-two {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-o-keyframes slide-close-gallery-two {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-ms-keyframes slide-close-gallery-two {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
@@ -278,46 +278,46 @@
 
 @keyframes slide-open-gallery-three {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-moz-keyframes slide-open-gallery-three {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-webkit-keyframes slide-open-gallery-three {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-o-keyframes slide-open-gallery-three {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
 @-ms-keyframes slide-open-gallery-three {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-200vw);
+    transform: translateX(-300%);
   }
 }
 
@@ -332,46 +332,46 @@
 
 @keyframes slide-close-gallery-three {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-moz-keyframes slide-close-gallery-three {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-webkit-keyframes slide-close-gallery-three {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-o-keyframes slide-close-gallery-three {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 
 @-ms-keyframes slide-close-gallery-three {
   0% {
-    transform: translateX(-200vw);
+    transform: translateX(-200%);
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(0);
   }
 }
 

@@ -38,7 +38,8 @@ function openGallery() {
   document.getElementById('photos').style.visibility = "visible";
   $(document).ready(function(){
     $('#first-col').animate({left:"-100vw"}, 2000);
-    $('#second-col').animate({left:"-100vw"}, 2000);
+    $('#second-col').animate({left:"-100vw"}, 1000);
+    $('#scroll-gallery').animate({left:"-100vw"}, 1000);
     $('.open').fadeOut("fast");
     $('.open-project').fadeOut("fast");
     if(  $("#auxiliary-panel-one").hasClass("slide-close-gallery-one") ) {
@@ -61,6 +62,7 @@ function closeGallery() {
   $('html').css("overflow-y","visible");
   $('#first-col').animate({left:"0vw"}, 2000);
   $('#second-col').animate({left:"0vw"}, 2000);
+  $('#scroll-gallery').animate({left:"0vw"}, 2000);
   $('.open').animate({left:"0vw"}, 2000);
   $('.open').fadeIn("slow");
   $('.open-project').animate({left:"0vw"}, 2000);
@@ -91,6 +93,7 @@ function openProject() {
   $(document).ready(function(){
     $('#first-col').animate({left:"100vw"}, 2000);
     $('#second-col').animate({left:"100vw"}, 2000);
+    $('#scroll-gallery').animate({left:"100vw"}, 2000);
     $('.open').fadeOut("fast");
     $('.open-project').fadeOut("fast");
     //if(  $("#auxiliary-panel-one").hasClass("slide-close-gallery-one") ) {
@@ -112,6 +115,7 @@ function closeProject() {
   $('html').css("overflow-y","visible");
   $('#first-col').animate({left:"0vw"}, 2000);
   $('#second-col').animate({left:"0vw"}, 2000);
+  $('#scroll-gallery').animate({left:"0vw"}, 2000);
   $('.open').animate({left:"0vw"}, 2000);
   $('.open').fadeIn("slow");
   $('.open-project').animate({left:"0vw"}, 2000);
@@ -132,10 +136,10 @@ var hovered = false;
 function move(section) {
   if (!hovered) {
     hovered = true;
-    $('.float-icon').animate({'marginTop' : "-=30%"}, 500);
+    $('.float-icon').animate({'marginTop' : "-=30%"}, 1000);
     if (section=="gallery") {
-      $('.gallery-title-div').animate({ opacity: 1 }, { duration: 3000 });
-      $('.open-container').animate({ opacity: 1 }, { duration: 3000 });
+      setTimeout("$('.gallery-title-div').animate({ opacity: 1 }, { duration: 1000 });", 1200);
+      setTimeout("$('.open-container').animate({ opacity: 1 }, { duration: 1000 });",1500);
     } else {
 
     }
