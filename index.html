@@ -96,21 +96,18 @@
         <div id="gallery-locator" class="gallery-section container-fluid">
           <div class="row" style="height:90%;">
             <div id="first-col" class="col-sm-6 gallery-col">
-              <div id="project-title" style="position: relative;"><h1 class="project-title" style="text-align: center; font-size:100px">PROJECT</h1></div>
-              <div class="open-project-container d-flex justify-content-center" style="width:100%">
-                <div class="open-project" onclick="openProject()" style="width:20%;">
+              <div id="project-title" class="project-title-div" style="position: relative;"><h1 class="project-title" style="text-align: center; font-size:100px">PROJECT</h1></div>
+              <div class="open-project-container d-flex justify-content-center" style="width:100%;">
+                <div class="open-project" onclick="openProject()" style="width:20%; cursor: pointer;">
                   <h4 class="open-project-link" style="text-align:center;">open</h4>
                 </div>
               </div>
             </div>
-            <div id="second-col" class="col-sm-6 gallery-col" onmouseover="move('gallery')">
-              <div style="width:100%" class="book d-flex justify-content-center">
-                <img class="float-icon" src="./public/icons/book.svg" width="20%"></img>
-              </div>
-              <div id="gallery-title" class="gallery-title-div" style="position: relative;  opacity:0;">
+            <div id="second-col" class="col-sm-6 gallery-col">
+              <div id="gallery-title" class="gallery-title-div" style="position: relative;">
                 <h1 class="gallery-title" style="text-align: center; font-size:100px">GALLERY</h1>
               </div>
-              <div class="open-container d-flex justify-content-center" style="width:100%; opacity:0;">
+              <div class="open-container d-flex justify-content-center" style="width:100%;">
                 <div class="open" onclick="openGallery(); resetActiveIllustration()" style="width:20%; cursor: pointer;">
                   <h4 class="open-gallery-link" style="text-align:center;">open</h4>
                 </div>
@@ -128,6 +125,9 @@
         <div id="auxiliary-panel-one" class="auxiliary-panel"></div>
         <div id="auxiliary-panel-two" class="auxiliary-panel"></div>
         <div id="auxiliary-panel-three" class="auxiliary-panel"></div>
+        <div id="auxiliary-panel-four" class="auxiliary-panel-project"></div>
+        <div id="auxiliary-panel-five" class="auxiliary-panel-project"></div>
+        <div id="auxiliary-panel-six" class="auxiliary-panel-project"></div>
       </div>
   </section>
   <section id="photos">
@@ -145,6 +145,20 @@
           <section class="separator">
             <section class="separator-child"></section>
           </section>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project" style="background:black;">
+    <div class="container-fluid" style="height:100%;">
+      <div class="row" style="height:100%;">
+        <div class="col-sm-10">
+          <div id="project-desc" style="visibility:hidden;"></div>
+        </div>
+        <div class="col-sm-2 d-flex justify-content-center">
+          <div id="back-div-project" class="back-project">
+            <div class="back-to-gallery" onclick="closeProject()"><h4 class="open-gallery-link">go back</h4></div>
+          </div>
         </div>
       </div>
     </div>
