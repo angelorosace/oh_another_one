@@ -299,3 +299,27 @@ a {
 .scroll-img {
   margin-top:50px;
 }
+
+.step-col {
+  border-right: 8px solid black;
+}
+
+.step img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.step-desc {
+  margin-top: 10%;
+  width:100%;
+  max-width: 100%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.step-icon {
+  margin-top: 10%;
+  text-align: center;
+}
