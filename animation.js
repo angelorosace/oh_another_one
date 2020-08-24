@@ -110,9 +110,11 @@ function openProject() {
 function closeProject() {
   $.scrollify.enable();
   $('html').css("overflow-y","visible");
-  setTimeout("$('#second-col').animate({left:'0%'}, 2000);", 700);
-  setTimeout("$('#first-col').animate({left:'0%'}, 2000);", 700);
-  $('#scroll-gallery').animate({left:"0%"}, 3000);
+  //$('#first-col').animate({left:'0%'}, 1000);
+  //$('#second-col').animate({left:'0%'}, 1000);
+  setTimeout("$('#second-col').animate({left:'0%'}, 1000);", 300);
+  setTimeout("$('#first-col').animate({left:'0%'}, 1000);", 300);
+  $('#scroll-gallery').animate({left:"0%"}, 1000);
   $('.open').animate({left:"0vw"}, 2000);
   $('.open').fadeIn("slow");
   $('.open-project').animate({left:"0vw"}, 2000);

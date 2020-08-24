@@ -643,11 +643,11 @@
 
 .slide-close-gallery-four {
   background: #fbced4;
-  animation: slide-close-gallery-four ease 3s forwards;
-  -webkit-animation: slide-close-gallery-four ease 3s forwards;
-  -moz-animation: slide-close-gallery-four ease 3s forwards;
-  -o-animation: slide-close-gallery-four ease 3s forwards;
-  -ms-animation: slide-close-gallery-four ease 3s forwards;
+  animation: slide-close-gallery-four ease 2s forwards;
+  -webkit-animation: slide-close-gallery-four ease 2s forwards;
+  -moz-animation: slide-close-gallery-four ease 2s forwards;
+  -o-animation: slide-close-gallery-four ease 2s forwards;
+  -ms-animation: slide-close-gallery-four ease 2s forwards;
 }
 
 @keyframes slide-close-gallery-four {
@@ -751,11 +751,11 @@
 
 .slide-close-gallery-five {
   background: #feb1bc;
-  animation: slide-close-gallery-five ease 3s .2s forwards;
-  -webkit-animation: slide-close-gallery-five ease 3s .2s forwards;
-  -moz-animation: slide-close-gallery-five ease 3s .2s forwards;
-  -o-animation: slide-close-gallery-five ease 3s .2s forwards;
-  -ms-animation: slide-close-gallery-five ease 3s .2s forwards;
+  animation: slide-close-gallery-five ease 2s .1s forwards;
+  -webkit-animation: slide-close-gallery-five ease 2s .1s forwards;
+  -moz-animation: slide-close-gallery-five ease 2s .1s forwards;
+  -o-animation: slide-close-gallery-five ease 2s .1s forwards;
+  -ms-animation: slide-close-gallery-five ease 2s .1s forwards;
 }
 
 @keyframes slide-close-gallery-five {
@@ -859,11 +859,11 @@
 
 .slide-close-gallery-six {
   background: #fd8c9c;
-  animation: slide-close-gallery-six ease 3s .4s forwards;
-  -webkit-animation: slide-close-gallery-six ease 3s .4s forwards;
-  -moz-animation: slide-close-gallery-six ease 3s .4s forwards;
-  -o-animation: slide-close-gallery-six ease 3s .4s forwards;
-  -ms-animation: slide-close-gallery-six ease 3s .4s forwards;
+  animation: slide-close-gallery-six ease 2s .15s forwards;
+  -webkit-animation: slide-close-gallery-six ease 2s .15s forwards;
+  -moz-animation: slide-close-gallery-six ease 2s .15s forwards;
+  -o-animation: slide-close-gallery-six ease 2s .15s forwards;
+  -ms-animation: slide-close-gallery-six ease 2s .15s forwards;
 }
 
 @keyframes slide-close-gallery-six {
