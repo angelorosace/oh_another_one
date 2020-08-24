@@ -3,6 +3,9 @@
   [class*="layer"] {
     visibility: hidden;
   }
+  [class*="ooo"] {
+    visibility: hidden;
+  }
 }
 
 @media only screen and (min-width: 768px) {
